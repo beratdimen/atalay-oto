@@ -12,7 +12,7 @@
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #003366; /* Kurumsal bir mavi tonu */
+  color: #003366;
   text-transform: uppercase;
   letter-spacing: 2px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -22,7 +22,7 @@
   text-align: center;
   font-size: 18px;
   margin-bottom: 40px;
-  color: #4d4d4d; /* Gri tonunda sade bir renk */
+  color: #4d4d4d;
 }
 
 .contactForm {
@@ -38,7 +38,7 @@
 
 .formGroup label {
   font-size: 16px;
-  color: #003366; /* Aynı kurumsal mavi tonu */
+  color: #003366;
   margin-bottom: 8px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -59,7 +59,7 @@
 .formGroup input:focus,
 .formGroup textarea:focus {
   outline: none;
-  border-color: #0066cc; /* Daha parlak mavi */
+  border-color: #0066cc;
   box-shadow: 0 0 10px rgba(0, 102, 204, 0.4);
 }
 
@@ -71,11 +71,7 @@
   padding: 15px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(
-    145deg,
-    #0066cc,
-    #004d99
-  ); /* Daha koyu mavi tonları */
+  background: linear-gradient(145deg, #0066cc, #004d99);
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -86,16 +82,12 @@
 }
 
 .contactButton:hover {
-  background: linear-gradient(
-    145deg,
-    #004d99,
-    #003366
-  ); /* Hover efekti için daha koyu mavi */
+  background: linear-gradient(145deg, #004d99, #003366);
   box-shadow: 0 5px 15px rgba(0, 51, 102, 0.3);
 }
 
 .formError {
-  color: #cc3300; /* Dikkat çeken bir kırmızı tonu */
+  color: #cc3300;
   font-size: 14px;
   margin-top: 5px;
   font-weight: bold;
