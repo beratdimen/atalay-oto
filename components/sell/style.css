@@ -1,0 +1,158 @@
+.sellContainer {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding-block: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.sellCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(135deg, #004e92, #000428);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.sellCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+}
+
+.cardContent:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.vehicleImage {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  position: relative;
+  border-radius: 10px;
+}
+
+.vehicleDetails {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  background: linear-gradient(135deg, #004e92, #010952);
+
+  color: #333;
+  border-radius: 10px;
+}
+
+.vehicleDetails h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.vehicleDetails p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.vehicleDetails strong {
+  color: #333;
+  font-weight: bold;
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.arrow-button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.arrow-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.arrow-left,
+.arrow-right {
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .sellCard {
+    flex-direction: column;
+  }
+
+  .cardContent {
+    flex-direction: row;
+  }
+
+  .vehicleImage {
+    width: 40%;
+  }
+
+  .vehicleDetails h2 {
+    font-size: 24px;
+  }
+
+  .vehicleDetails p {
+    font-size: 18px;
+  }
+
+  .arrow-buttons {
+    gap: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sellCard {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cardContent {
+    flex-direction: row;
+  }
+
+  .vehicleDetails h2 {
+    font-size: 26px;
+  }
+
+  .vehicleDetails p {
+    font-size: 20px;
+  }
+
+  .arrow-buttons {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,77 @@
+.brandsContainer {
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 12px;
+  background-color: #f5f5f5;
+  padding-block: 80px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sliderWrapper {
+  width: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
+  will-change: transform;
+}
+
+.slider img {
+  width: 150px;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slider img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .slider img {
+    width: 120px;
+  }
+
+  .sliderWrapper {
+    width: 720px;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider img {
+    width: 90px;
+  }
+
+  .sliderWrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .slider {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .slider img {
+    width: 75px;
+  }
+
+  .sliderWrapper {
+    padding: 0 5px;
+  }
+}

@@ -1,0 +1,19 @@
+.altFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 120px;
+  background: linear-gradient(135deg, #004e92, #000428);
+  h4 {
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .altFooter {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    padding: 12px 0;
+  }
+}
