@@ -7,16 +7,17 @@
 
   .carCardContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
     gap: 16px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+    justify-content: center;
 
     .carDetail {
       display: flex;
       background-color: #f7f7f7;
       border-radius: 12px;
-      max-width: 900px;
+      max-width: 100%;
       margin: 16px auto;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
       overflow: hidden;
@@ -32,14 +33,17 @@
 
       .imageWrapper {
         position: relative;
+        display: flex;
+        justify-content: center;
       }
 
       img {
         transition: transform 0.3s ease;
         border-radius: 8px;
         object-fit: cover;
-        width: 300px;
-        height: 100%;
+        width: 100%;
+        max-width: 300px;
+        height: auto;
       }
 
       .label {
@@ -60,23 +64,23 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 16px;
-        padding: 16px;
+        gap: 12px;
+        padding: 12px;
 
         .text {
           background-color: #0d0d0d;
           align-items: center;
-          padding: 16px 20px;
+          padding: 12px 16px;
           font-weight: 600;
-          font-size: 16px;
+          font-size: 14px;
           display: flex;
           color: #fff;
-          gap: 12px;
+          gap: 10px;
         }
 
         .text svg {
-          height: 24px;
-          width: 24px;
+          height: 20px;
+          width: 20px;
         }
       }
     }
@@ -88,24 +92,11 @@
     .carCardContainer {
       grid-template-columns: 1fr;
       width: 100%;
-
-      .carDetail {
-        max-width: 100%;
-        margin: 16px 0;
-      }
+      padding: 0 16px;
     }
-  }
 
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  .content {
-    padding: 12px;
-  }
-
-  .text {
-    font-size: 14px;
+    .carDetail {
+      max-width: 100%;
+    }
   }
 }

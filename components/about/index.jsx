@@ -24,9 +24,9 @@ export default function About() {
             </Link>
           </p>
 
-          <a href="/contact" className="about-btn">
+          <Link href="/iletisim" className="about-btn">
             Bize Ulaşın
-          </a>
+          </Link>
         </div>
 
         <div className="about-image">
