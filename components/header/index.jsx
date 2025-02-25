@@ -21,7 +21,7 @@ export default function Header() {
       </button>
       <ul className={`nav ${menuOpen ? "active" : ""}`}>
         <li>
-          <Link href={"/anasayfa"}>Anasayfa</Link>
+          <Link href={"/"}>Anasayfa</Link>
         </li>
         <li>
           <Link href={"/hizmetler"}>Hizmetler</Link>
@@ -29,11 +29,9 @@ export default function Header() {
         <li>
           <Link href={"/magaza"}>Mağaza</Link>
         </li>
+
         <li>
-          <Link href={"/markalar"}>Markalar</Link>
-        </li>
-        <li>
-          <Link href={"/galeri"}>Galeri</Link>
+          <Link href={"/hakkimizda"}>Hakkımızda</Link>
         </li>
         <li>
           <Link href={"/iletisim"}>İletişim</Link>

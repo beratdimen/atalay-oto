@@ -4,11 +4,11 @@ import "./style.css";
 
 export default function Sell() {
   const cardImages = [
-    ["/img/car1.png", "/img/car2.png", "/img/car3.png"],
-    ["/img/car4.png", "/img/car5.png", "/img/car1.png"],
-    ["/img/car1.png", "/img/car2.png", "/img/car3.png"],
-    ["/img/car4.png", "/img/car5.png", "/img/car1.png"],
-    ["/img/car2.png", "/img/car3.png", "/img/car4.png"],
+    ["/img/kent1.jpg", "/img/kent2.jpg", "/img/otokar1.jpg"],
+    ["/img/kent1.jpg", "/img/kent2.jpg", "/img/otokar1.jpg"],
+    ["/img/kent1.jpg", "/img/kent2.jpg", "/img/otokar1.jpg"],
+    ["/img/kent1.jpg", "/img/kent2.jpg", "/img/otokar1.jpg"],
+    ["/img/kent1.jpg", "/img/kent2.jpg", "/img/otokar1.jpg"],
   ];
 
   const [currentImages, setCurrentImages] = useState(

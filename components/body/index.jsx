@@ -5,9 +5,9 @@ import { LeftIcon, RightIcon } from "@/helpers/icons";
 
 export default function Body() {
   const backgrounds = [
-    "url('/img/slide1.jpg')",
-    "url('/img/slide2.jpg')",
-    "url('/img/slide3.jpg')",
+    "url('/img/IMG-20250210-WA0028.jpg')",
+    "url('/img/IMG-20250210-WA0024.jpg')",
+    "url('/img/IMG-20250210-WA0029.jpg')",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

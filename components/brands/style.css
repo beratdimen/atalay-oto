@@ -3,15 +3,15 @@
   overflow: hidden;
   width: 100%;
   padding-bottom: 12px;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
   padding-block: 80px;
-}
 
-h4 {
-  font-size: 24px;
-  color: #333;
-  font-weight: 600;
-  margin-bottom: 20px;
+  h4 {
+    font-size: 24px;
+    color: #0d0d0d;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
 }
 
 .sliderWrapper {
@@ -39,6 +39,7 @@ h4 {
 .slider img:hover {
   transform: scale(1.1);
   cursor: pointer;
+  border-color: #ffffff;
 }
 
 @media (max-width: 768px) {

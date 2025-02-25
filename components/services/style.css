@@ -3,7 +3,6 @@
   flex-direction: column;
   gap: 48px;
   padding-block: 80px;
-  background-color: #f5f5f5;
 
   .text {
     display: flex;
@@ -15,13 +14,13 @@
 
     h3 {
       font-size: 24px;
-      color: #333;
+      color: #ff0000;
     }
 
     p {
       font-size: 18px;
       opacity: 0.8;
-      color: #666;
+      color: #0d0d0d;
     }
   }
 
@@ -41,27 +40,24 @@
       flex-wrap: wrap;
       padding: 20px;
       border-radius: 8px;
-      background-color: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #1a1a1a;
+      box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
 
       svg {
         width: 80px;
         height: 80px;
-        fill: #4caf50;
+        fill: #ff0000;
       }
 
       p {
         font-size: 18px;
         font-weight: 500;
-        color: #333;
+        color: #ffffff;
       }
 
       &:hover {
-        background: linear-gradient(135deg, #004e92, #000428);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        p {
-          color: white;
-        }
+        background: linear-gradient(90deg, #ff0000, #0d0d0d);
+        box-shadow: 0 6px 12px rgba(255, 0, 0, 0.4);
       }
     }
   }

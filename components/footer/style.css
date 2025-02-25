@@ -2,10 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 120px;
-  background: linear-gradient(135deg, #004e92, #000428);
+  padding: 12px;
+  background: #0d0d0d;
+
   h4 {
     color: white;
+    font-size: 14px;
   }
 }
 

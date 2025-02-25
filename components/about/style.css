@@ -1,7 +1,6 @@
 .about-section {
   padding: 80px 20px;
-  background: linear-gradient(135deg, #004e92, #000428);
-  color: #fff;
+  color: #ffffff;
   font-family: "Arial", sans-serif;
 }
 
@@ -25,29 +24,44 @@
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #0d0d0d;
 }
 
 .about-text {
+  display: flex;
+  flex-direction: column;
   font-size: 1.2rem;
   line-height: 1.8;
   margin-bottom: 20px;
+  color: #0d0d0d;
+}
+a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #5f5757;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .about-btn {
   display: inline-block;
   padding: 15px 30px;
   font-size: 1.2rem;
-  color: #004e92;
-  background-color: #fff;
+  color: #ff0000;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
   transition: all 0.3s ease;
+  box-shadow: 0 0 10px #0d0d0d3f;
 }
 
 .about-btn:hover {
-  background-color: #004e92;
-  color: #fff;
+  background-color: #ff0000;
+  color: #ffffff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -73,6 +87,7 @@
   margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #ff0000;
 }
 
 .values-container {
@@ -83,13 +98,13 @@
 }
 
 .value-card {
-  background: #fff;
-  color: #004e92;
-  padding: 20px;
+  background: #ffffff;
+  color: #b71c1c;
+  padding: 40px 20px;
   border-radius: 10px;
   text-align: center;
   max-width: 300px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -106,12 +121,12 @@
 .value-card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #000428;
+  color: #000;
 }
 
 .value-card p {
   font-size: 1rem;
-  color: #333;
+  color: #333333;
 }
 
 @media (max-width: 768px) {

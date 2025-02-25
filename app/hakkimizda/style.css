@@ -1,0 +1,134 @@
+.about-detail-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+  color: #0d0d0d;
+  font-family: sans-serif;
+}
+
+.about-detail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-detail-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-detail-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.about-detail-introduction {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-detail-awards {
+  margin-bottom: 50px;
+}
+
+.about-detail-awards-title {
+  font-size: 2rem;
+  color: #ff0000;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.about-detail-awards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-detail-award-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 45%;
+  max-width: 45%;
+}
+
+.about-detail-award-item h3 {
+  font-size: 1.1rem;
+  color: #0d0d0d;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.about-detail-locations {
+  margin-bottom: 50px;
+}
+
+.about-detail-locations-title {
+  font-size: 2rem;
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.about-detail-locations-description {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-detail-customer-service {
+  margin-bottom: 50px;
+}
+
+.about-detail-customer-service-title {
+  font-size: 2rem;
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.about-detail-customer-service-description {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-detail-future-goals {
+  margin-bottom: 50px;
+}
+
+.about-detail-future-goals-title {
+  font-size: 2rem;
+  color: #ff0000;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.about-detail-future-goals-description {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-detail-closing p {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about-detail-awards-list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-detail-award-item {
+    max-width: 100%;
+  }
+}

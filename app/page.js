@@ -1,8 +1,8 @@
 import About from "@/components/about";
 import Body from "@/components/body";
 import Brands from "@/components/brands";
+import CarDetail from "@/components/car-detail";
 import Contact from "@/components/contact";
-import Sell from "@/components/sell";
 import Services from "@/components/services";
 
 export default function Home() {
@@ -10,8 +10,7 @@ export default function Home() {
     <>
       <Body />
       <Services />
-      <Brands />
-      <Sell />
+      <CarDetail />
       <About />
       <Contact />
     </>

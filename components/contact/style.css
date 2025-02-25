@@ -1,28 +1,34 @@
+.map {
+  max-width: 1280px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-block: 24px;
+}
 .contactContainer {
-  max-width: 800px;
-  margin: 50px auto;
-  padding: 40px;
-  background: linear-gradient(145deg, #f7f9fb, #e9eff5);
   border-radius: 20px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 36px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .contactTitle {
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #003366;
+  color: #ff0000;
+
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .contactDescription {
   text-align: center;
   font-size: 18px;
   margin-bottom: 40px;
-  color: #4d4d4d;
+  color: #0d0d0d;
 }
 
 .contactForm {
@@ -38,7 +44,7 @@
 
 .formGroup label {
   font-size: 16px;
-  color: #003366;
+  color: #0d0d0d;
   margin-bottom: 8px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -47,20 +53,18 @@
 .formGroup input,
 .formGroup textarea {
   padding: 15px;
-  border: 2px solid #d1d8e0;
+  border: 2px solid #4d4d4d;
   border-radius: 10px;
   font-size: 16px;
-  background-color: #ffffff;
-  color: #003366;
-  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #b71c1c;
   transition: all 0.3s ease-in-out;
 }
 
 .formGroup input:focus,
 .formGroup textarea:focus {
   outline: none;
-  border-color: #0066cc;
-  box-shadow: 0 0 10px rgba(0, 102, 204, 0.4);
+  border-color: #b71c1c;
+  box-shadow: 0 0 10px rgba(183, 28, 28, 0.6);
 }
 
 .formGroup textarea {
@@ -71,7 +75,7 @@
   padding: 15px;
   border: none;
   border-radius: 12px;
-  background: linear-gradient(145deg, #0066cc, #004d99);
+  background: linear-gradient(135deg, #ff0000, #0d0d0dab);
   color: white;
   font-size: 18px;
   font-weight: bold;
@@ -82,15 +86,145 @@
 }
 
 .contactButton:hover {
-  background: linear-gradient(145deg, #004d99, #003366);
-  box-shadow: 0 5px 15px rgba(0, 51, 102, 0.3);
+  background: linear-gradient(135deg, #0d0d0d, #ff0000);
+  box-shadow: 0 5px 15px rgba(183, 28, 28, 0.6);
 }
 
 .formError {
-  color: #cc3300;
-  font-size: 14px;
+  color: #ff0000;
+  font-size: 12px;
   margin-top: 5px;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(204, 51, 0, 0.5);
   letter-spacing: 0.5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 24px;
+}
+
+.location {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  a {
+    color: #0d0d0d;
+  }
+}
+
+.mail {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  a {
+    color: #0d0d0d;
+  }
+}
+
+@media (max-width: 1024px) {
+  .map {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactContainer {
+    padding: 24px;
+  }
+
+  .contactTitle {
+    font-size: 22px;
+  }
+
+  .contactDescription {
+    font-size: 16px;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+
+  .formGroup input,
+  .formGroup textarea {
+    width: 100%;
+  }
+
+  .contactButton {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactTitle {
+    font-size: 20px;
+  }
+
+  .contactDescription {
+    font-size: 14px;
+  }
+
+  .formGroup label {
+    font-size: 14px;
+  }
+
+  .formGroup input,
+  .formGroup textarea {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .contactButton {
+    font-size: 16px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactContainer {
+    padding: 16px;
+  }
+
+  .contactTitle {
+    font-size: 18px;
+  }
+
+  .contactDescription {
+    font-size: 12px;
+  }
+
+  .formGroup label {
+    font-size: 12px;
+  }
+
+  .formGroup input,
+  .formGroup textarea {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .contactButton {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  iframe {
+    height: 200px;
+  }
 }
