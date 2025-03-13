@@ -6,7 +6,7 @@ export default function About() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-content">
-          <h1 className="about-title">Biz Kimiz?</h1>
+          <h1 className="about-title">BİZ KİMİZ?</h1>
           <p className="about-text">
             1992 yılında kurulan Atalay Otomotiv sektöre ilk adımını ikinci el
             minibüs ve şehir içi toplu taşıma araçlarının satışı ile atmıştır.
