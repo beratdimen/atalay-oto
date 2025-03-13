@@ -42,7 +42,7 @@ button:hover {
   transform: translate(-50%, -50%);
   text-align: center;
   background: rgba(0, 0, 0, 0.301);
-  padding: 24px 48px;
+  padding: 26px 48px;
   border-radius: 8px;
   z-index: 2;
   width: 100%;

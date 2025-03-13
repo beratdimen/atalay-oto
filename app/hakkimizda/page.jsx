@@ -92,10 +92,6 @@ const About = () => {
             alarak bu yolda ilerlemeyi temenni ediyoruz.
           </p>
         </div>
-
-        <div className="about-detail-closing">
-          <p>Saygılarımızla</p>
-        </div>
       </div>
     </section>
   );

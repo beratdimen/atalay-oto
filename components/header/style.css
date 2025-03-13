@@ -9,6 +9,7 @@ header {
   background: #0d0d0d;
   color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-inline: 24px;
 }
 
 header a {

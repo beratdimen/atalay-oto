@@ -39,7 +39,10 @@ export default function Header() {
       </ul>
       <ul className="social">
         <li>
-          <Link href={"/insta"}>
+          <Link
+            href={"https://www.instagram.com/atalayotomotiv34/"}
+            target="blank"
+          >
             <InstagramIcon />
           </Link>
         </li>
