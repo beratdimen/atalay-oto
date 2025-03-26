@@ -52,9 +52,9 @@ export default function Contact() {
             <p>Turgut Özal, 99. Sk, 34513 Esenyurt/İstanbul</p>
           </div>
           <div className="phone">
-            <a href="tel:+90 536 391 85 84">
+            <a href="tel:+90 541 428 07 08">
               <PhoneIcon />
-              <p>Telefon: +90 536 391 85 84</p>
+              <p>Telefon: +90 541 428 07 08</p>
             </a>
           </div>
           <div className="mail">
